@@ -1,0 +1,46 @@
+{
+  "name": "supasample",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "turbo": "turbo",
+    "build": "turbo run build",
+    "build:packages": "turbo run build --filter=./packages/*",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "lint:report": "turbo run lint:report",
+    "lint:fix": "turbo run lint:fix",
+    "typecheck": "turbo run typecheck",
+    "preview": "turbo run preview",
+    "cleanup-preview": "turbo run cleanup-preview",
+    "deploy": "turbo run deploy",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "test": "turbo run test",
+    "format:write": "turbo run format:write",
+    "format:check": "turbo run format:check",
+    "generate": "turbo run generate",
+    "clear-branches": "git branch --merged | egrep -v \"(^\\*|production|dev|main)\" | xargs git branch -d",
+    "reset-git": "git checkout main && git pull && pnpm run clear-branches",
+    "merge-main": "git fetch origin main:main && git merge main",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@egoist/get-packages": "1.0.1",
+    "prettier": "2.8.0",
+    "@commitlint/cli": "17.3.0",
+    "@commitlint/config-conventional": "17.3.0",
+    "turbo": "1.6.1",
+    "husky": "8.0.1",
+    "eslint": "8.28.0"
+  },
+  "engines": {
+    "pnpm": "7",
+    "node": "18"
+  },
+  "dependencies": {},
+  "packageManager": "pnpm@7.17.0"
+}

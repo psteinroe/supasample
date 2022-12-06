@@ -1,0 +1,13 @@
+{
+  "name": "@supasample/supabase",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "supabase status || supabase start",
+    "reset": "supabase db reset || supabase start",
+    "test": "supabase db test",
+    "lint": "supabase db lint",
+    "lint:report": "supabase db lint",
+    "deploy": "supabase link --project-ref $SUPABASE_PROJECT_REF && supabase db push"
+  }
+}

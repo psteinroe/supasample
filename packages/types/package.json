@@ -1,0 +1,31 @@
+{
+  "name": "@supasample/types",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "generate": "(cd ../../ && supabase gen types typescript --local > ./packages/types/src/database.ts) && prettier --write \"src/**/*.{ts,tsx,md}\"",
+    "build": "tsup",
+    "clean": "rm -rf .turbo && rm -rf lint-results && rm -rf .nyc_output && rm -rf node_modules && rm -rf dist",
+    "dev": "tsup --watch",
+    "lint": "eslint src/**",
+    "lint:report": "eslint src/** --format json --output-file ./lint-results/types.json",
+    "lint:fix": "eslint src/** --fix",
+    "typecheck": "tsc --pretty --noEmit",
+    "format:write": "prettier --write \"src/**/*.{ts,tsx,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@supasample/supabase": "workspace:*",
+    "@supasample/tsconfig": "workspace:*",
+    "typescript": "4.9.3",
+    "@supasample/prettier-config": "workspace:*",
+    "@supasample/eslint-config-custom": "workspace:*",
+    "tsup": "6.5.0"
+  }
+}
