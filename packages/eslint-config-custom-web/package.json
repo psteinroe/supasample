@@ -1,0 +1,12 @@
+{
+  "name": "@supasample/eslint-config-custom-web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf lint-results && rm -rf .nyc_output && rm -rf node_modules"
+  },
+  "dependencies": {
+    "eslint-config-turbo": "0.0.4",
+    "eslint-config-universe": "11.1.0"
+  }
+}

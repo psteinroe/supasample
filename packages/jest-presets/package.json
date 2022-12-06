@@ -1,0 +1,12 @@
+{
+  "name": "@supasample/jest-presets",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf lint-results && rm -rf .nyc_output && rm -rf node_modules"
+  },
+  "dependencies": {
+    "ts-jest": "29.0.3"
+  }
+}

@@ -1,0 +1,44 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+.nyc_output
+
+# next.js
+.next/
+out/
+build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# turbo
+.turbo
+
+# dist
+**/dist/
+
+# storybook
+**/storybook-static/
+
+# Lint results
+lint-results
+
+eslint_report.json
+.env
+
+
+.idea
+.idea/*

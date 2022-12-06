@@ -1,0 +1,83 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "@supasample/supabase#start": {
+      "outputs": [],
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "generate": {
+      "dependsOn": ["^generate"],
+      "outputs": []
+    },
+    "@supasample/types#generate": {
+      "dependsOn": ["@supasample/supabase#start", "^generate"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": ["coverage/**"]
+    },
+    "@supasample/supabase#test": {
+      "dependsOn": ["@supasample/supabase#start", "^build"],
+      "outputs": []
+    },
+    "clean": {
+      "outputs": [],
+      "cache": false
+    },
+    "start": {
+      "outputs": []
+    },
+    "lint": {
+      "dependsOn": ["format:check"],
+      "outputs": []
+    },
+    "@supasample/supabase#lint": {
+      "dependsOn": ["@supasample/supabase#start", "format:check"],
+      "outputs": []
+    },
+    "lint:report": {
+      "dependsOn": ["format:check"],
+      "outputs": ["lint-results/**"]
+    },
+    "@supasample/supabase#lint:report": {
+      "dependsOn": ["@supasample/supabase#start", "format:check"],
+      "outputs": []
+    },
+    "lint:fix": {
+      "dependsOn": ["format:write"],
+      "outputs": []
+    },
+    "format:write": {
+      "outputs": []
+    },
+    "format:check": {
+      "outputs": []
+    },
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "preview": {
+      "outputs": []
+    },
+    "cleanup-preview": {
+      "outputs": []
+    },
+    "deploy": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    }
+  },
+  "globalEnv": [
+    "NODE_ENV",
+    "SUPABASE_URL",
+    "SUPABASE_ANON_KEY"
+  ]
+}

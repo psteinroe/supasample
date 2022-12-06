@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm -v
+pnpm install
+pnpm run turbo format:check lint typecheck
