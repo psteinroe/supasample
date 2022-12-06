@@ -35,7 +35,7 @@
     "@commitlint/config-conventional": "17.3.0",
     "turbo": "1.6.1",
     "husky": "8.0.1",
-    "eslint": "8.28.0"
+    "eslint": "8.29.0"
   },
   "engines": {
     "pnpm": "7",
