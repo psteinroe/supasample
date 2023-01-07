@@ -31,8 +31,8 @@
   "devDependencies": {
     "@egoist/get-packages": "1.0.1",
     "prettier": "2.8.0",
-    "@commitlint/cli": "17.3.0",
-    "@commitlint/config-conventional": "17.3.0",
+    "@commitlint/cli": "17.4.0",
+    "@commitlint/config-conventional": "17.4.0",
     "turbo": "1.6.1",
     "husky": "8.0.1",
     "eslint": "8.31.0"
