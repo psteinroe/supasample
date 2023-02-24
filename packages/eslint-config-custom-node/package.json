@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "eslint-config-turbo": "0.0.4",
-    "eslint-config-universe": "11.1.0"
+    "eslint-config-universe": "11.2.0"
   }
 }
