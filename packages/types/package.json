@@ -26,6 +26,6 @@
     "typescript": "4.9.3",
     "@supasample/prettier-config": "workspace:*",
     "@supasample/eslint-config-custom": "workspace:*",
-    "tsup": "6.6.0"
+    "tsup": "6.7.0"
   }
 }
