@@ -4,16 +4,16 @@ importers:
 
   .:
     specifiers:
-      '@commitlint/cli': 17.5.0
-      '@commitlint/config-conventional': 17.4.0
+      '@commitlint/cli': 17.6.0
+      '@commitlint/config-conventional': 17.6.0
       '@egoist/get-packages': 1.0.1
       eslint: 8.38.0
       husky: 8.0.1
       prettier: 2.8.0
       turbo: 1.9.0
     devDependencies:
-      '@commitlint/cli': 17.5.0
-      '@commitlint/config-conventional': 17.4.0
+      '@commitlint/cli': 17.6.0
+      '@commitlint/config-conventional': 17.6.0
       '@egoist/get-packages': 1.0.1
       eslint: 8.38.0
       husky: 8.0.1
@@ -426,15 +426,15 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: false
 
-  /@commitlint/cli/17.5.0:
-    resolution: {integrity: sha512-yNW3+M7UM1ioK28LKTrryIVB5qGpXlEv8+rJQiWPMZNayy9/1XR5+lL8qBTNlgopYtZWWnIm5RETcAN29ZTL/A==}
+  /@commitlint/cli/17.6.0:
+    resolution: {integrity: sha512-JaZeZ1p6kfkSiZlDoQjK09AuiI9zYQMiIUJzTOM8qNRHFOXOPmiTM56nI67yzeUSNTFu6M/DRqjmdjtA5q3hEg==}
     engines: {node: '>=v14'}
     hasBin: true
     dependencies:
       '@commitlint/format': 17.4.4
-      '@commitlint/lint': 17.4.4
+      '@commitlint/lint': 17.6.1
       '@commitlint/load': 17.5.0
-      '@commitlint/read': 17.4.4
+      '@commitlint/read': 17.5.1
       '@commitlint/types': 17.4.4
       execa: 5.1.1
       lodash.isfunction: 3.0.9
@@ -446,8 +446,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional/17.4.0:
-    resolution: {integrity: sha512-G4XBf45J4ZMspO4NwBFzY3g/1Kb+B42BcIxeikF8wucQxcyxcmhRdjeQpRpS1XEcBq5pdtEEQFipuB9IuiNFhw==}
+  /@commitlint/config-conventional/17.6.0:
+    resolution: {integrity: sha512-2Y9M7MN942bTK5h70fJGknhXA02+OtWCkKeIzTSwsdwz1V7y6bxYv24x052E9XHKtZHJfvM3iLuTOsjRvLqWtA==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
@@ -494,13 +494,13 @@ packages:
       semver: 7.3.8
     dev: true
 
-  /@commitlint/lint/17.4.4:
-    resolution: {integrity: sha512-qgkCRRFjyhbMDWsti/5jRYVJkgYZj4r+ZmweZObnbYqPUl5UKLWMf9a/ZZisOI4JfiPmRktYRZ2JmqlSvg+ccw==}
+  /@commitlint/lint/17.6.1:
+    resolution: {integrity: sha512-VARJ9kxH64isgwVnC+ABPafCYzqxpsWJIpDaTuI0gh8aX4GQ0i7cn9tvxtFNfJj4ER2BAJeWJ0vURdNYjK2RQQ==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/is-ignored': 17.4.4
       '@commitlint/parse': 17.4.4
-      '@commitlint/rules': 17.4.4
+      '@commitlint/rules': 17.6.1
       '@commitlint/types': 17.4.4
     dev: true
 
@@ -541,8 +541,8 @@ packages:
       conventional-commits-parser: 3.2.4
     dev: true
 
-  /@commitlint/read/17.4.4:
-    resolution: {integrity: sha512-B2TvUMJKK+Svzs6eji23WXsRJ8PAD+orI44lVuVNsm5zmI7O8RSGJMvdEZEikiA4Vohfb+HevaPoWZ7PiFZ3zA==}
+  /@commitlint/read/17.5.1:
+    resolution: {integrity: sha512-7IhfvEvB//p9aYW09YVclHbdf1u7g7QhxeYW9ZHSO8Huzp8Rz7m05aCO1mFG7G8M+7yfFnXB5xOmG18brqQIBg==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/top-level': 17.4.0
@@ -564,8 +564,8 @@ packages:
       resolve-global: 1.0.0
     dev: true
 
-  /@commitlint/rules/17.4.4:
-    resolution: {integrity: sha512-0tgvXnHi/mVcyR8Y8mjTFZIa/FEQXA4uEutXS/imH2v1UNkYDSEMsK/68wiXRpfW1euSgEdwRkvE1z23+yhNrQ==}
+  /@commitlint/rules/17.6.1:
+    resolution: {integrity: sha512-lUdHw6lYQ1RywExXDdLOKxhpp6857/4c95Dc/1BikrHgdysVUXz26yV0vp1GL7Gv+avx9WqZWTIVB7pNouxlfw==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/ensure': 17.4.4
