@@ -38,9 +38,9 @@
     "eslint": "8.54.0"
   },
   "engines": {
-    "pnpm": "7",
+    "pnpm": "8",
     "node": "18"
   },
   "dependencies": {},
-  "packageManager": "pnpm@7.33.0"
+  "packageManager": "pnpm@8.15.7"
 }
