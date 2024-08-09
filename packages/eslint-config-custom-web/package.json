@@ -6,7 +6,7 @@
     "clean": "rm -rf .turbo && rm -rf lint-results && rm -rf .nyc_output && rm -rf node_modules"
   },
   "dependencies": {
-    "eslint-config-turbo": "0.0.4",
+    "eslint-config-turbo": "2.0.12",
     "eslint-config-universe": "11.3.0"
   }
 }
