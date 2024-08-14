@@ -6,7 +6,7 @@
     "clean": "rm -rf .turbo && rm -rf lint-results && rm -rf .nyc_output && rm -rf node_modules"
   },
   "devDependencies": {
-    "prettier": "2.8.0",
+    "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.6"
   }
 }

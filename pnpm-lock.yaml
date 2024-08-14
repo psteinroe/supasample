@@ -9,7 +9,7 @@ importers:
       '@egoist/get-packages': 1.0.1
       eslint: 8.57.0
       husky: 8.0.1
-      prettier: 2.8.0
+      prettier: 3.3.3
       turbo: 1.13.2
     devDependencies:
       '@commitlint/cli': 17.8.0
@@ -17,7 +17,7 @@ importers:
       '@egoist/get-packages': 1.0.1
       eslint: 8.57.0
       husky: 8.0.1
-      prettier: 2.8.0
+      prettier: 3.3.3
       turbo: 1.13.2
 
   packages/eslint-config-custom:
@@ -26,7 +26,7 @@ importers:
       eslint-config-universe: 11.3.0
     dependencies:
       eslint-config-turbo: 0.0.4_eslint@8.57.0
-      eslint-config-universe: 11.3.0_hh53kquz6bij2mrcbnx3drt5ka
+      eslint-config-universe: 11.3.0_u7wqg27rnshpev7v75oeroil24
 
   packages/eslint-config-custom-native:
     specifiers:
@@ -34,7 +34,7 @@ importers:
       eslint-config-universe: 11.3.0
     dependencies:
       eslint-config-turbo: 0.0.4_eslint@8.57.0
-      eslint-config-universe: 11.3.0_hh53kquz6bij2mrcbnx3drt5ka
+      eslint-config-universe: 11.3.0_u7wqg27rnshpev7v75oeroil24
 
   packages/eslint-config-custom-node:
     specifiers:
@@ -42,7 +42,7 @@ importers:
       eslint-config-universe: 11.3.0
     dependencies:
       eslint-config-turbo: 0.0.4_eslint@8.57.0
-      eslint-config-universe: 11.3.0_hh53kquz6bij2mrcbnx3drt5ka
+      eslint-config-universe: 11.3.0_u7wqg27rnshpev7v75oeroil24
 
   packages/eslint-config-custom-web:
     specifiers:
@@ -50,7 +50,7 @@ importers:
       eslint-config-universe: 11.3.0
     dependencies:
       eslint-config-turbo: 0.0.4_eslint@8.57.0
-      eslint-config-universe: 11.3.0_hh53kquz6bij2mrcbnx3drt5ka
+      eslint-config-universe: 11.3.0_u7wqg27rnshpev7v75oeroil24
 
   packages/jest-presets:
     specifiers:
@@ -60,11 +60,11 @@ importers:
 
   packages/prettier-config:
     specifiers:
-      prettier: 2.8.0
+      prettier: 3.3.3
       prettier-plugin-tailwindcss: 0.6.6
     devDependencies:
-      prettier: 2.8.0
-      prettier-plugin-tailwindcss: 0.6.6_prettier@2.8.0
+      prettier: 3.3.3
+      prettier-plugin-tailwindcss: 0.6.6_prettier@3.3.3
 
   packages/tsconfig:
     specifiers: {}
@@ -2126,7 +2126,7 @@ packages:
       eslint-plugin-turbo: 0.0.4_eslint@8.57.0
     dev: false
 
-  /eslint-config-universe/11.3.0_hh53kquz6bij2mrcbnx3drt5ka:
+  /eslint-config-universe/11.3.0_u7wqg27rnshpev7v75oeroil24:
     resolution: {integrity: sha512-CL6v7IxV+OJn0q1vqtFVtX+sNUdY7MiIy3/XD0dy96D7RsDvYBWWqs4S1AIB4AdVgraNnv829q1+asluAePSSw==}
     peerDependencies:
       eslint: '>=8.10'
@@ -2141,10 +2141,10 @@ packages:
       eslint-config-prettier: 8.5.0_eslint@8.57.0
       eslint-plugin-import: 2.26.0_zrwgzdz4eocbcjrji2gif4myze
       eslint-plugin-node: 11.1.0_eslint@8.57.0
-      eslint-plugin-prettier: 4.2.1_jpoygjcge73a7s3exm47w4m44e
+      eslint-plugin-prettier: 4.2.1_f4ye5jyxl6qwrn6jvajrkngcfa
       eslint-plugin-react: 7.31.11_eslint@8.57.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.57.0
-      prettier: 2.8.0
+      prettier: 3.3.3
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -2247,7 +2247,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_jpoygjcge73a7s3exm47w4m44e:
+  /eslint-plugin-prettier/4.2.1_f4ye5jyxl6qwrn6jvajrkngcfa:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -2260,7 +2260,7 @@ packages:
     dependencies:
       eslint: 8.57.0
       eslint-config-prettier: 8.5.0_eslint@8.57.0
-      prettier: 2.8.0
+      prettier: 3.3.3
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -3957,7 +3957,7 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier-plugin-tailwindcss/0.6.6_prettier@2.8.0:
+  /prettier-plugin-tailwindcss/0.6.6_prettier@3.3.3:
     resolution: {integrity: sha512-OPva5S7WAsPLEsOuOWXATi13QrCKACCiIonFgIR6V4lYv4QLp++UXVhZSzRbZxXGimkQtQT86CC6fQqTOybGng==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -4012,12 +4012,12 @@ packages:
       prettier-plugin-svelte:
         optional: true
     dependencies:
-      prettier: 2.8.0
+      prettier: 3.3.3
     dev: true
 
-  /prettier/2.8.0:
-    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
-    engines: {node: '>=10.13.0'}
+  /prettier/3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
     hasBin: true
 
   /pretty-format/29.3.1:
