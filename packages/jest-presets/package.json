@@ -7,6 +7,6 @@
     "clean": "rm -rf .turbo && rm -rf lint-results && rm -rf .nyc_output && rm -rf node_modules"
   },
   "dependencies": {
-    "ts-jest": "29.1.0"
+    "ts-jest": "29.2.4"
   }
 }
