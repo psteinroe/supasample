@@ -39,7 +39,7 @@
   },
   "engines": {
     "pnpm": "7",
-    "node": "18"
+    "node": "20"
   },
   "dependencies": {},
   "packageManager": "pnpm@7.33.0"
